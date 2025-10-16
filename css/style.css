@@ -1032,12 +1032,20 @@ ol {
 	height: 549px;
 }
 
+.footer .row {
+	align-items: center;
+}
+
 .footer.footer--normal {
 	margin-top: 0;
 }
 
 .footer__address {
 	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
 }
 
 .footer__address ul li {
@@ -1053,7 +1061,7 @@ ol {
 
 .footer__address ul li i {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ce0000;
 	height: 50px;
 	width: 50px;
 	background: #ffffff;
@@ -1081,6 +1089,10 @@ ol {
 	text-align: center;
 	position: relative;
 	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
 }
 
 .footer__social::before {
@@ -1111,7 +1123,7 @@ ol {
 
 .footer__social .footer__social__links a {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ce0000;
 	height: 50px;
 	width: 50px;
 	background: #ffffff;
@@ -1173,7 +1185,7 @@ ol {
 
 .footer__newslatter form button {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ce0000;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -1214,7 +1226,7 @@ ol {
 
 .breadcrumb__links a {
 	font-size: 15px;
-	color: #111111;
+	color: #ffffff;
 	margin-right: 18px;
 	display: inline-block;
 	position: relative;
@@ -1234,7 +1246,7 @@ ol {
 
 .breadcrumb__links span {
 	font-size: 15px;
-	color: #888888;
+	color: #c9c5c5;
 	display: inline-block;
 }
 
@@ -1571,13 +1583,13 @@ ol {
 }
 
 .service__item {
-	background: #5c00ce;
+	background: #7e0303;
 	height: 320px;
 	padding: 70px 40px 40px 70px;
 }
 
 .service__item.deep-bg {
-	background: #5400BC;
+	background: #5e0101;
 }
 
 .service__item h4 {
