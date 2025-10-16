@@ -171,20 +171,20 @@ ol {
 	text-transform: uppercase;
 	padding: 14px 25px 12px;
 	color: #ffffff;
-	background: #5c00ce;
+	background: #ce0000;
 	letter-spacing: 2px;
 }
 
 .primary-btn.border-btn {
 	background: transparent;
-	border: 2px solid #5c00ce;
+	border: 2px solid #ce0000;
 	color: #111111;
 }
 
 .site-btn {
 	font-size: 15px;
 	color: #ffffff;
-	background: #5c00ce;
+	background: #ce0000;
 	font-weight: 700;
 	letter-spacing: 2px;
 	border: none;
@@ -263,17 +263,22 @@ ol {
 -----------------------*/
 
 .header {
-	background: rgba(42, 1, 74, 0.5);
+	/* background: rgba(172, 3, 3, 0.363); */
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	z-index: 9;
+	min-height: 85px;
+}
+
+.header .row {
+	align-items: center;
 }
 
 .header.header--normal {
 	position: relative;
-	background: #290849;
+	background: #96050562;
 }
 
 .header__logo {
@@ -286,10 +291,14 @@ ol {
 
 .header__nav {
 	text-align: right;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: flex-end;
 }
 
 .header__menu {
-	padding: 31px 0 27px;
+	padding: 0;
 	display: inline-block;
 	margin-right: 45px;
 }
@@ -470,7 +479,7 @@ ol {
 
 .linear__icon i {
 	font-size: 50px;
-	color: #5c00ce;
+	color: #ffffff;
 }
 
 @-webkit-keyframes mymove {
